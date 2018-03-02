@@ -51,7 +51,7 @@ setup(
     url=URL,
     packages=find_packages(exclude=('tests',)),
     # If your package is a single module, use this instead of 'packages':
-    py_modules=['graph-report'],
+    py_modules=['graph_report'],
 
     entry_points={
          'console_scripts': ['graph-report = graph_report:main'],
