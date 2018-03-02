@@ -6,10 +6,7 @@
 
 import io
 import os
-import sys
-from shutil import rmtree
-
-from setuptools import find_packages, setup, Command
+from setuptools import find_packages, setup
 
 # Package meta-data.
 NAME = 'graph_report'
@@ -57,7 +54,7 @@ setup(
     },
     install_requires=REQUIRED,
     include_package_data=True,
-    license=None, # TODO: Check license (BSD like RAGE?)
+    license=None,  # TODO: Check license (BSD like RAGE?)
     classifiers=[
         # Trove classifiers
         # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers

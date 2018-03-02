@@ -19,7 +19,6 @@ pip install .
 ```
 
 ### In a virtual env
-The suggested approach is using pipenv (`pip install pipenv`):
 ```
 pipenv install
 pipenv shell

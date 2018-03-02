@@ -4,14 +4,14 @@
 import argparse
 import logging
 import os
-import sys
 
 from ragelib.brief_rewriter import HTMLBodyWriter
 from ragelib.graph_fetcher import ImageFetcher
 from ragelib.brief_parser import ReportParser
 
-def write_out(body, outfile):
 
+def write_out(body, outfile):
+    """Write the given HTML body to outfile"""
     html = f"""
     <html>
         <body>
@@ -27,6 +27,7 @@ def write_out(body, outfile):
 
 
 def test_geckodriver_default_paths():
+    """Look for geckodriver in our default paths"""
     defaults = ['C:\\dev\\geckodriver.exe', '/usr/local/bin/geckodriver']
     for p in defaults:
         if os.path.exists(p):
@@ -53,7 +54,7 @@ def parse_args_or_exit():
     else:
         if not os.path.exists(args.geckodriver_path):
             raise parser.error(f'geckodriver not found at {args.geckodriver_path}. Please check the path and try again.')
-    
+
     return args
 
 
