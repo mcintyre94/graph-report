@@ -18,7 +18,7 @@ URL = 'https://code.citrite.net/users/callumiandam/repos/graph-report'
 EMAIL = 'callum.mcintyre@citrix.com'
 AUTHOR = 'Callum McIntyre'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = None
+VERSION = '0.1.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -35,9 +35,8 @@ here = os.path.abspath(os.path.dirname(__file__))
 # Import the README and use it as the long-description.
 # Note: this will only work if 'README.rst' is present in your MANIFEST.in file!
 # TODO: add a readme.md
-#with io.open(os.path.join(here, 'README.rst'), encoding='utf-8') as f:
-#    long_description = '\n' + f.read()
-long_description = "TODO: The README for ragelib"
+with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
+    long_description = '\n' + f.read()
 
 # Where the magic happens:
 setup(
