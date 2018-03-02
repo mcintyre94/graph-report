@@ -58,6 +58,7 @@ def parse_args_or_exit():
 
 
 def main():
+    logger = logging.getLogger('image-fetcher')
     args = parse_args_or_exit()
     with open(args.file) as html_file:
         report_html = html_file.read()
@@ -72,5 +73,4 @@ def main():
 
 
 if __name__ == '__main__':
-    logger = logging.getLogger('image-fetcher')
     main()
