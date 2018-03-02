@@ -38,7 +38,7 @@ def parse_args_or_exit():
     parser = argparse.ArgumentParser(description='Extract graphs from a RAGE brief report using headless firefox (geckodriver). You should get the latest geckodriver release from https://github.com/mozilla/geckodriver/releases.')
     parser.add_argument('file', help='A report file to extract graphs for')
     parser.add_argument('--geckodriver-path', help='The geckodriver path to use (default: C:\\dev\\geckodriver.exe, or /usr/local/bin/geckodriver)')
-    parser.add_argument('--outfile', help='File to write the results to', default='output.html')
+    parser.add_argument('--outfile', help='File to write the results to (default: output.html)', default='output.html')
     parser.add_argument('-v', '--verbose', help="Enable verbose logging", action="store_const", dest="loglevel", const=logging.INFO)
     parser.add_argument('-d', '--debug', help="Enable debug logging", action="store_const", dest="loglevel", const=logging.DEBUG, default=logging.WARNING)
 
