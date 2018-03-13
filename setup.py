@@ -54,11 +54,11 @@ setup(
     },
     install_requires=REQUIRED,
     include_package_data=True,
-    license=None,  # TODO: Check license (BSD like RAGE?)
+    license='BSD-3-Clause',
     classifiers=[
         # Trove classifiers
         # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
-        # 'License :: OSI Approved :: BSD License',
+        'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
