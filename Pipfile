@@ -7,7 +7,7 @@ name = "pypi"
 
 [packages]
 
-ragelib = {git = "https://callumiandam@code.citrite.net/scm/~callumiandam/ragelib.git", editable = true}
+ragelib = {git = "https://github.com/mcintyre94/ragelib.git", editable = true}
 
 
 [dev-packages]

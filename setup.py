@@ -11,7 +11,7 @@ from setuptools import find_packages, setup
 # Package meta-data.
 NAME = 'graph_report'
 DESCRIPTION = 'A CLI wrapper that rewrites a RAGE brief report to include graphs'
-URL = 'https://code.citrite.net/users/callumiandam/repos/graph-report'
+URL = 'https://github.com/mcintyre94/graph-report'
 EMAIL = 'callum.mcintyre@citrix.com'
 AUTHOR = 'Callum McIntyre'
 REQUIRES_PYTHON = '>=3.6.0'

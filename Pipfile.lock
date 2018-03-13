@@ -1,20 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "828b0d6ab7948adff5e5a8f21a3978fb2adabc14a9bb290ecc91d0ac42989af7"
-        },
-        "host-environment-markers": {
-            "implementation_name": "cpython",
-            "implementation_version": "3.6.1",
-            "os_name": "nt",
-            "platform_machine": "AMD64",
-            "platform_python_implementation": "CPython",
-            "platform_release": "10",
-            "platform_system": "Windows",
-            "platform_version": "10.0.16299",
-            "python_full_version": "3.6.1",
-            "python_version": "3.6",
-            "sys_platform": "win32"
+            "sha256": "5dca4963af44c7e82c1b3fc5bccd7c952653b5c1ae9fcdd7dab820e0a8498fbf"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -29,8 +16,8 @@
     "default": {
         "beautifulsoup4": {
             "hashes": [
-                "sha256:7015e76bf32f1f574636c4288399a6de66ce08fb7b2457f628a8d70c0fbabb11",
                 "sha256:11a9a27b7d3bddc6d86f59fb76afb70e921a25ac2d6cc55b40d072bd68435a76",
+                "sha256:7015e76bf32f1f574636c4288399a6de66ce08fb7b2457f628a8d70c0fbabb11",
                 "sha256:808b6ac932dccb0a4126558f7dfdcf41710dd44a4ef497a0bb59a77f9f078e89"
             ],
             "version": "==4.6.0"
@@ -43,22 +30,22 @@
         },
         "ragelib": {
             "editable": true,
-            "git": "https://callumiandam@code.citrite.net/scm/~callumiandam/ragelib.git",
-            "ref": "d58c0e27bc568a8a86fe232867504613c7c618d5"
+            "git": "https://github.com/mcintyre94/ragelib.git",
+            "ref": "fa08930b1c2c6cf853c122598a991c55a9a23e07"
         },
         "selenium": {
             "hashes": [
-                "sha256:b0a06afa31a80d7dcb627eafb62776488b20bdaffcd807ac4158fadbc11061f4",
-                "sha256:a34a833d89bcfb463bfba5e5515a9276bb94221787b409f0ad28d2f91903e31d"
+                "sha256:2b6f018e55f50e9c67a67caec2f73f806f72c162fb38cf3ea79e0a8f6506bf56",
+                "sha256:5841fb30c3965866220c34d16de8e3d091e2833fcac385160a63db0c3522a297"
             ],
-            "version": "==3.9.0"
+            "version": "==3.11.0"
         },
         "tqdm": {
             "hashes": [
-                "sha256:f66468c14ccd011a627734c9b3fd72f20ce16f8faecc47384eb2507af5924fb9",
-                "sha256:5ec0d4442358e55cdb4a0471d04c6c831518fd8837f259db5537d90feab380df"
+                "sha256:9bd200335ee4429381e81bd82c08d16b59a5228a11e1ae71222b31646b3533f3",
+                "sha256:f1c098cd12cfb39190805d0c771198af0a734ba63b381ea99d72ea38770525c7"
             ],
-            "version": "==4.19.6"
+            "version": "==4.19.7"
         }
     },
     "develop": {}

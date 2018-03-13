@@ -3,7 +3,7 @@
 A script for rewriting RAGE brief reports to contain the graph that they link to. 
 
 ## Prerequisites: Firefox, Geckodriver
-This script uses [ragelib](https://code.citrite.net/users/callumiandam/repos/ragelib), which uses Selenium to fetch and render RAGE pages. Communication between Selenium and Firefox is performed using geckodriver. You must have Firefox installed, and a release of geckodriver for your platform downloaded from https://github.com/mozilla/geckodriver/releases.
+This script uses [ragelib](https://github.com/mcintyre94/ragelib), which uses Selenium to fetch and render RAGE pages. Communication between Selenium and Firefox is performed using geckodriver. You must have Firefox installed, and a release of geckodriver for your platform downloaded from https://github.com/mozilla/geckodriver/releases.
 
 Recommended locations for the geckodriver binary are `C:\dev\geckodriver.exe` on Windows or `/usr/local/bin/geckodriver` on Linux/OS X.
 
