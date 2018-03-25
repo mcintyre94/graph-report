@@ -5,9 +5,9 @@ import argparse
 import logging
 import os
 
-from ragelib.brief_rewriter import HTMLBodyWriter
-from ragelib.graph_fetcher import ImageFetcher
-from ragelib.brief_parser import ReportParser
+from ragelib.html_body_writer import HTMLBodyWriter
+from ragelib.image_fetcher import ImageFetcher
+from ragelib.report_parser import ReportParser
 
 
 def write_out(body, outfile):
